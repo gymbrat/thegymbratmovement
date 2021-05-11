@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;400;500;900&display=swap');
+
+/* Sass Template*/
+@import './include/variables.scss';
+@import './include/global.scss';
+@import './include/typography.scss';
+@import './include/color.scss';
+@import './include/top-sale.scss';
+@import './include/special-price.scss';
+
+body{
+    //height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    border-bottom: 1px solid #B89FC7;
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+}
+
+.hero-section{
+
+    height: 100vh;
+
+    // h1{
+    //     color: #ffff;
+
+    //     .outline-text {
+    //         -webkit-text-stroke: 2px #ffff;
+    //         color: transparent;
+    //     }
+    // }
+    // p{
+    //     color: #fff;
+    // }
+
+    .leftside{
+        padding-left: 25em;
+    }
+    p{
+        color: #ffff;
+    }
+    .message-hero-section{
+        margin-top: -160px;
+        margin-left: 160px;
+
+        .btn{
+            box-shadow: 3px 5px 18px 7px #BB4DE7 !important;
+            border-radius: 0 !important;
+            padding: 1.5em 3em !important;
+        }
+    }
+    .rightside img{
+        margin-left: -16em;
+    }
+    
+}
+
+#filters{
+    text-align: right;
+}

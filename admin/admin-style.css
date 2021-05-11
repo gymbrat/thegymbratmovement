@@ -1,0 +1,104 @@
+.btn-outline-success{
+    color: #fff;
+    border-color: #6c4a9d;
+}
+.btn-outline-success:hover {
+    background: #6c4a9d;
+    border-color: #6c4a9d;
+}
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color:#6c4a9d !important;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.accordion .border-left{
+    border-left: 5px solid #6c4a9d !important;
+}
+
+.accordion table tbody tr:nth-child(even) {
+    background-color: #f5f6fe;
+}
+
+.accordion .btn-link{
+    font-family: "Helvetica Neue",Helvetica, Roboto,Arial, sans-serif;
+    font-size: 1.35rem;
+    color: #343a40;
+}
+
+.card-body{
+    background-image: linear-gradient(to bottom right, transparent, transparent, #e0e4ff, #e0e4ff);
+}
+
+.btn-info{
+    background-color: #6c4a9d;
+    border-color: #6c4a9d;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div .content {
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 700px) {
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    .add-item .content, .update-item .content {
+        margin-left: 200px;
+        
+    }
+    .sidebar-wrapper {
+        width: 200px;
+        position: relative;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .admin {
+        display: block;
+    }
+}

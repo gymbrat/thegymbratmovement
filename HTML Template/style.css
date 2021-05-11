@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;400;500;900&display=swap");
+/* Sass Template*/
+/* Global Classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Typography Class*/
+.font-anton {
+  font-family: "Anton", "sans-serif";
+}
+
+.font-poppins {
+  font-family: "Poppins", "sans-serif";
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14x;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-6em {
+  font-size: 6em;
+}
+
+/*Color Template*/
+body {
+  background-image: linear-gradient(black, black, #0D0C0F, #0D0C0F, #371665, #8485B3);
+}
+
+.color-primary {
+  color: black;
+}
+
+.color-primary-bg {
+  background: black;
+}
+
+.color-second {
+  background: purple;
+}
+
+.color-second-bg {
+  background: purple;
+}
+
+/*Top Sale*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: black;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  border-bottom: 1px solid #B89FC7;
+}
+.navbar .navbar-brand img {
+  width: 100px;
+}
+
+.hero-section {
+  height: 100vh;
+}
+.hero-section .leftside {
+  padding-left: 25em;
+}
+.hero-section p {
+  color: #ffff;
+}
+.hero-section .message-hero-section {
+  margin-top: -160px;
+  margin-left: 160px;
+}
+.hero-section .message-hero-section .btn {
+  box-shadow: 3px 5px 18px 7px #BB4DE7 !important;
+  border-radius: 0 !important;
+  padding: 1.5em 3em !important;
+}
+.hero-section .rightside img {
+  margin-left: -16em;
+}
+
+#filters {
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */

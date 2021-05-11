@@ -1,0 +1,1066 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+/* Sass Template*/
+/*==================================== GLOBAL CLASSES ====================================*/
+body {
+    background-repeat: no-repeat;
+}
+
+button,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/*==================================== SIDE MENU ====================================*/
+.side-menu {
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    background-image: linear-gradient(black, black, #0D0C0F, #0D0C0F, #371665, #8485B3);
+    background-image: linear-gradient(#8D7A9A, #8D7A9A, #8D7A9A, #858ABA, #858ABA, #858ABA, #391769);
+    z-index: 100;
+}
+
+#side-list {
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+}
+
+#side-list li{
+    margin: 1em 0;
+}
+
+#side-text{
+    white-space: nowrap;
+    display: block;
+    transform: rotate(270deg);
+    margin-top: 15em;
+}
+
+/*==================================== TYPOGRAPHY CLASSES ====================================*/
+.font-anton {
+    font-family: "Anton", "sans-serif";
+}
+
+.font-poppins {
+    font-family: "Poppins", "sans-serif";
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-6em {
+    font-size: 6em;
+}
+
+/*==================================== COLOR TEMPLATE ====================================*/
+.homepage-wrapper {
+    background-image: linear-gradient(black, #0D0C0F, #0D0C0F, #371665, #371665, #371665, #564385,#564385, #8485B3);
+    padding-bottom: 15em;
+}
+
+.color-primary {
+    color: black;
+}
+
+.color-primary-bg {
+    background: black;
+}
+
+.color-second {
+    background: #391769;
+}
+
+.color-second-bg {
+    background: purple;
+}
+
+.color-grey{
+    color: #535151;
+}
+.bg-black{
+    background-color: black;
+}
+
+.grey{
+    color: #8a8a8a;
+}
+
+/*==================================== NAVBAR ====================================*/
+.navbar {
+    border-bottom: 1px solid #B89FC7;
+}
+
+.navbar .navbar-brand img {
+    width: 100px;
+}
+
+.cart-count {
+    margin-right: -36px;
+    vertical-align: 7px;
+}
+
+.current {
+    color: #fff !important;
+}
+
+
+
+/*==================================== HERO SECTION ====================================*/
+.hero-section{
+    margin-bottom: 6em;
+}
+
+.hero-section .hero-button{
+    position: absolute;
+    bottom: 3em;
+    left: 10em;
+}
+
+.hero-section .leftside {
+    padding-left: 25em;
+}
+
+.hero-section p {
+    color: #ffff;
+}
+
+.hero-section .message-hero-section {
+    margin-top: -160px;
+    margin-left: 160px;
+}
+
+.hero-section .message-hero-section .btn,.bottom-ctas .btn, .hero-button {
+    box-shadow: 3px 5px 18px 7px #BB4DE7 !important;
+    border-radius: 0 !important;
+    padding: 1.5em 3em !important;
+}
+
+
+/*==================================== HOMEPAGE ABOUT ME CAROUSEL ====================================*/
+.about-me .offset-md-2{
+    background-color: #8687B4;
+}
+
+.about-me .owl-carousel {
+     margin-top: 80px;
+ }
+
+ .about-me .post-slide {
+     margin: 20px 15px 20px;
+ }
+
+ .about-me .post-slide .post-img {
+     position: relative;
+     overflow: hidden;
+     border-radius: 10px;
+     margin: -12px 15px 8px 15px;
+     margin-left: -10px;
+ }
+
+ .about-me .post-slide .post-img img {
+     width: 100%;
+     height: auto;
+     transform: scale(1, 1);
+     transition: transform 0.2s linear;
+ }
+
+ .about-me .post-slide:hover .post-img img {
+     transform: scale(1.1, 1.1);
+ }
+
+ .about-me .post-slide .over-layer {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: 0;
+     background: linear-gradient(-45deg, rgba(57, 23, 105, 0.6) 0%, rgba(141, 122, 154, 0.75)100%);
+     transition: all 0.50s linear;
+ }
+
+ .about-me .post-slide:hover .over-layer {
+     opacity: 1;
+     text-decoration: none;
+ }
+
+ .about-me .post-slide .over-layer i {
+     position: relative;
+     top: 45%;
+     text-align: center;
+     display: block;
+     color: #fff;
+     font-size: 25px;
+ }
+
+ .about-me .post-slide .post-content {
+     background: #fff;
+     padding: 2px 20px 40px;
+     border-radius: 15px;
+ }
+
+ .about-me .post-slide .post-title a {
+     font-size: 15px;
+     font-weight: bold;
+     color: #333;
+     display: inline-block;
+     text-transform: uppercase;
+     transition: all 0.3s ease 0s;
+ }
+
+ .about-me .post-slide .post-title a:hover {
+     text-decoration: none;
+     color: #3498db;
+ }
+
+ .about-me .post-slide .post-description {
+     line-height: 24px;
+     color: #808080;
+     margin-bottom: 25px;
+ }
+
+ .about-me .post-slide .post-date {
+     color: #a9a9a9;
+     font-size: 14px;
+ }
+
+ .about-me .post-slide .post-date i {
+     font-size: 20px;
+     margin-right: 8px;
+     color: #CFDACE;
+ }
+
+ .about-me .post-slide .read-more {
+     padding: 7px 20px;
+     float: right;
+     font-size: 12px;
+     background: #2196F3;
+     color: #ffffff;
+     box-shadow: 0px 10px 20px -10px #1376c5;
+     border-radius: 25px;
+     text-transform: uppercase;
+ }
+
+ .about-me .post-slide .read-more:hover {
+     background: #3498db;
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .about-me .owl-controls .owl-buttons {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .about-me .owl-controls .owl-buttons .owl-prev {
+     background: #fff;
+     position: absolute;
+     top: -13%;
+     left: 15px;
+     padding: 0 18px 0 15px;
+     border-radius: 50px;
+     box-shadow: 3px 14px 25px -10px #92b4d0;
+     transition: background 0.5s ease 0s;
+ }
+
+ .about-me .owl-controls .owl-buttons .owl-next {
+     background: #fff;
+     position: absolute;
+     top: -13%;
+     right: 15px;
+     padding: 0 15px 0 18px;
+     border-radius: 50px;
+     box-shadow: -3px 14px 25px -10px #92b4d0;
+     transition: background 0.5s ease 0s;
+ }
+
+ .about-me .owl-controls .owl-buttons .owl-prev:after,
+ .about-me .owl-controls .owl-buttons .owl-next:after {
+     content: "\f104";
+     font-family: FontAwesome;
+     color: #333;
+     font-size: 30px;
+ }
+
+ .about-me .owl-controls .owl-buttons .owl-next:after {
+     content: "\f105";
+ }
+
+
+
+/*==================================== HOMEPAGE WORKOUT GUIDES SECTION ====================================*/
+.workout-guides{
+    margin-top: 10em;
+}
+
+#graph{
+    margin-top: -30em;
+}
+
+.workout-guides .border-bottom,
+.workout-guides .border-end{
+    border-color: #E7A4F3 !important;
+}
+
+
+/*==================================== BOTTOM CTAS ====================================*/
+.bottom-ctas {
+    margin-top: 10em;
+    padding-left: 3em;
+}
+.bottom-ctas .btn {
+    background-color: #0D0C0F;
+    float: right;
+}
+
+.bottom-ctas .btn:hover {
+    background-color: #fff;
+}
+
+.bottom-ctas .row{
+    margin: 20em 0;
+}
+
+.left-images{
+    z-index: 1;
+    position: relative;
+}
+
+
+/*==================================== FOOTER ====================================*/
+
+footer{
+    padding-top: 5em;
+    background-image: url(./assets/logos/faded-logo.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 200px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+footer .border-top{
+    border-color: #E7A4F3 !important;
+}
+
+.copyright-inner,
+.copyright-inner2{
+    font-size: 10px;
+    padding: 1;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+/*==================================== TOP SALE ====================================*/
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: black;
+    padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+/*==================================== SPECIAL PRICE SECTION TEMPLATE ====================================*/
+/* #special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+} */
+
+/*==================================== MERCHANDISE FILTER ====================================*/
+
+#filters {
+    text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+/*==================================== SOCIAL MEDIA & CODES =======================================*/
+
+.codes .parallax {
+    /* The image used */
+    background-image: url("assets/graphics/palm_purp.jpeg");
+
+    /* Set a specific height */
+    min-height: 0px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.codes .card {
+    border: 0;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.08);
+    border: 1px solid#e3e3e3;
+    transition: all 0.3s ease-in-out;
+    padding: 2.25rem 0;
+    position: relative;
+    will-change: transform;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.codes .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-image: linear-gradient(to right, #dd73f0, #dd73f0, #dd73f0, #bfbcf9, #bfbcf9, #bfbcf9, #bfbcf9, #dcdbfb, #dcdbfb, #dcdbfb, #f9dbff);
+    transition: 0.5s;
+}
+
+.codes .card:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    /*box-shadow: 5px 10px 10px #888888;*/
+}
+
+.codes .card:hover:after {
+    width: 100%;
+}
+
+.codes .card .card-header {
+    background-color: white;
+    padding-left: 2rem;
+    border-bottom: 0px;
+}
+
+.codes .card .card-title {
+    margin-bottom: 1rem;
+}
+
+.codes .card .card-block {
+    padding-top: 0;
+}
+
+.codes .card .list-group-item {
+    border: 0px;
+    padding: 0.25rem;
+    color: #808080;
+    font-weight: 300;
+}
+
+.codes .display-2 {
+    font-size: 7rem;
+    letter-spacing: -0.5rem;
+}
+
+.codes .display-2 .currency {
+    font-size: 2.75rem;
+    position: relative;
+    font-weight: 400;
+    top: -45px;
+    letter-spacing: 0px;
+}
+
+.codes .display-2 .period {
+    font-size: 1rem;
+    color: #b3b3b3;
+    letter-spacing: 0px;
+}
+
+.codes .btn, .merch .btn-gradient, .btn-gradient-success, .product .btn-gradient, .snipcart-add-item, .commenter-name .btn-gradient, .blog-box .btn-gradient{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color:#545b62;
+    border-radius: 0;
+    padding: 0.75rem 1.25rem;
+    letter-spacing: 1px;
+}
+
+.codes .btn-gradient, .merch .btn-gradient, .product .btn-gradient,  .snipcart-add-item{
+    background-color: #f2f2f2;
+    transition: background 0.3s ease-in-out;
+}
+
+.codes .btn-gradient:hover,.merch .btn-gradient:hover, .btn-gradient-success:hover, .product .btn-gradient:hover, .snipcart-add-item:hover{
+    color: white;
+    background-color: #57e2b2;
+}
+
+.btn-gradient-success{
+    color: white;
+    background-color: #57e2b2;
+}
+
+
+/*==================================== BLOG SECTION ====================================*/
+
+.blog-box {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.blog-sections{
+    margin: 2em 0 5em 0;
+}
+
+.blog-title {
+    background: #f0f4f7;
+    position: relative;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.blog-content p {
+    line-height: 27px;
+    word-break: break-word;
+    -ms-word-wrap: break-word;
+}
+
+.side-blog {
+    background: #f0f4f7;
+}
+
+.side-blog ul{
+    list-style-type: none;
+    padding: 0;
+}
+.side-blog ul li{
+    margin: 1em 0;
+}
+
+.side-blog a, .blog-content a, .blog-title .readmore{
+    color: #8d7b9a;
+}
+
+.blog-title a{
+    color: #212529;
+}
+
+.comments-details button.btn.dropdown-toggle,
+.comments-details .total-comments {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5e5e5e;
+}
+
+.comments-details {
+    padding: 15px 15px;
+}
+
+.comments .comments .dropdown,
+.comments .dropup {
+    position: relative;
+}
+
+.comments button {
+    background-color: transparent;
+    border: none;
+}
+
+.comments .comment-box {
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color: #FAFAFA;
+    padding: 10px 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.comment-inline {
+    display: inline-flex;
+}
+
+.comments .add-comment {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.comments .commenter-pic {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.comments .add-comment .commenter-name {
+    width: 100%;
+    top: 20px;
+    left: 0px;
+}
+
+.comments .add-comment input {
+    border-top: 0px;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px;
+    border-right: 0px;
+    outline: 0px;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: normal;
+}
+
+.comments .add-comment input:focus {
+    border-color: #858aba;
+    border-width: 2px;
+}
+
+.comments .add-comment button[type=submit]{
+    background-color: #858aba;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.comments .add-comment button {
+    background-color: #f5f5f5;
+    margin: 10px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.comments .commenter-name .comment-time {
+    font-weight: normal;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.comments p.comment-txt {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 15px;
+}
+
+.comments .commenter-name {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comments .comment-meta {
+    font-size: 14px;
+    color: #333;
+    padding: 2px 5px 0px;
+    line-height: 20px;
+    float: right;
+}
+
+.comments .reply-box {
+    display: none;
+}
+
+.comments .replied {
+    background-color: #fff;
+    width: 95%;
+    float: right;
+    margin-top: 15px;
+}
+
+
+/*==================================== SIGNUP =======================================*/
+.signup-form a, .signin a {
+    color: #e7a4f3;
+}
+
+.signup-form .input-group-prepend span, .login_btn {
+    background-color: #858aba !important;
+}
+
+.signup-form .container, .signin .container  {
+    height: 100%;
+    align-content: center;
+}
+
+.signup-form .card {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span:hover, .signin .social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.signup-form .card-header h3, .signup-form .remember, .signin .remember, .signup-form .links, .signin .links, .signin .card-header h3 {
+    color: white;
+}
+.signup-form .input-group-prepend span {
+    width: 170px;
+    background-color: #858aba;
+    color: black;
+    border: 0 !important;
+}
+
+.signup-form input:focus, .signin input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.signup-form .remember input, .signin .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn, .signin .login_btn  {
+    color: black;
+    background-color: #858aba;
+    width: 100px;
+}
+
+.login_btn:hover, .signin .login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.signup-form .links a, .signin .links a{
+    margin-left: 4px;
+}
+
+.signin .card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.signin .input-group-prepend span {
+    width: 50px;
+    background-color: #858aba;
+    color: black;
+    border: 0 !important;
+}
+
+
+/*==================================== MEDIA QUERIES ====================================*/
+/*======Responsive CSS=======*/
+
+@media only screen and (min-width:460px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 3em;
+        left: 11em;
+    }
+}
+@media only screen and (min-width:500px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 3em;
+        left: 12em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /*Navbar*/
+    .navbar {
+        padding-left: 4em !important;
+        /*padding-right: 8em !important;*/
+    }
+
+    /*About Me*/
+    .about-me .col-6.col-sm-8 {
+        margin-left: -60px;
+    }
+
+    .hero-section {
+        margin-bottom: 10em;
+    }
+
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 1em;
+        left: 10em;
+    }
+
+    .blog-box {
+        margin: 5em 5em;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    /*Navbar*/
+    .navbar {
+        padding-left: 4em !important;
+        padding-right: 1em !important;
+    }
+
+    /*Side Menu*/
+    .side-menu {
+        width: 40px;
+    }
+
+    #side-text {
+        margin-top: 7em;
+    }
+
+    /*Bottom CTAs*/
+    .bottom-ctas {
+        margin-top: 15em;
+    }
+
+    .bottom-ctas .row {
+        margin: 10em 0 !important;
+    }
+
+    /*About Me*/
+    .about-me .owl-carousel {
+        margin-top: 55px;
+    }
+    
+    .about-me .post-slide,  .about-me .post-slide .post-img {
+        margin: 0;
+    }
+   
+    /*Homepage Workout Guides Section*/
+    .workout-guides {
+        padding: 0 2em 0 4em;
+        background: url(./assets/graphics/graph-sm.svg);
+        background-repeat: no-repeat;
+        background-position-y: 10em;
+        background-size: contain;
+    }
+
+    .guide-table-center .col-md-3 {
+        border-bottom: none !important;
+    }
+
+    .guide-table-center .border-end {
+        border-right: none !important;
+    }
+
+    .owl-carousel.owl-theme.owl-loaded.owl-drag {
+        overflow: hidden;
+    }
+
+    footer .content-wrap {
+        padding-left: 5em !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .comments .commenter-name {
+        font-size: 13px;
+        top: -5px;
+    }
+
+    .comments .commenter-pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .comments .commenter-name a {
+        display: block;
+    }
+
+    .comments .commenter-name .comment-time {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    .hero-section {
+        margin-bottom: 15em;
+    }
+    
+    .codes .row {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+
+    .bottom-ctas .btn {
+        float: left;
+        margin-top: 2em;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    .navbar-nav {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-collapse .border-end {
+        border-right: 1px solid #fff;
+    }
+
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 5em;
+        left: 9em;
+    }
+    .blog-box {
+        margin: 5em 10em;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 1em;
+        left: 9em;
+    }
+}
+@media only screen and (min-width:1280px) {
+
+    .hero-section {
+        margin-bottom: 20em;
+    }
+
+    .workout-guides {
+        margin-top: 20em;
+    }
+
+    .bottom-ctas {
+        margin-top: 30em;
+        padding-left: 3em;
+    }
+
+}
+
+@media only screen and (max-width:1280px) {
+
+    .about-me .post-slide .post-content {
+        padding: 0px 15px 25px 15px;
+    }
+
+}
+
+@media only screen and (min-width:1300px) {
+
+    /*Navbar*/
+    .navbar {
+        padding-left: 8em !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    .blog-box {
+        margin: 5em 15em;
+    }
+}
+
+@media only screen and (min-width:1700px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 2em;
+        left: 10em;
+    }
+
+}
+@media only screen and (min-width:1800px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 5em;
+        left: 12em;
+    }
+}
+@media only screen and (min-width:1900px) {
+    .hero-section .hero-button {
+        position: absolute;
+        bottom: 5em;
+        left: 17em;
+    }
+
+    .blog-box {
+        margin: 5em 25em;
+    }
+}
+
+
+
+

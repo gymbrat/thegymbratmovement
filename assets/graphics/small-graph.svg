@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414.866" height="304.813" viewBox="0 0 414.866 304.813">
+  <g id="Group_18" data-name="Group 18" transform="translate(-510 -2658.5)">
+    <text id="_8:00_AM" data-name="8:00 AM" transform="translate(583.864 2695.796)" fill="#eececd" font-size="11" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="11">8:00 AM</tspan></text>
+    <text id="_12:00_PM" data-name="12:00 PM" transform="translate(681.441 2695.796)" fill="#fff" font-size="11" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="11">12:00 PM</tspan></text>
+    <text id="_4:00_PM" data-name="4:00 PM" transform="translate(782.289 2695.796)" fill="#fff" font-size="11" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="11">4:00 PM</tspan></text>
+    <text id="_8:00_PM" data-name="8:00 PM" transform="translate(879.866 2695.796)" fill="#fff" font-size="11" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="11">8:00 PM</tspan></text>
+    <g id="Group_16" data-name="Group 16" transform="translate(608.94 2718.146)">
+      <line id="Line_9" data-name="Line 9" y2="245.167" transform="translate(0.854)" fill="none" stroke="#fefefe" stroke-width="1"/>
+      <line id="Line_12" data-name="Line 12" y2="245.167" transform="translate(98.237)" fill="none" stroke="#fefefe" stroke-width="1"/>
+      <g id="Group_15" data-name="Group 15">
+        <line id="Line_10" data-name="Line 10" y2="245.167" transform="translate(293.004)" fill="none" stroke="#fefefe" stroke-width="1"/>
+        <line id="Line_11" data-name="Line 11" y2="245.167" transform="translate(195.621)" fill="none" stroke="#fefefe" stroke-width="1"/>
+        <path id="Path_10" data-name="Path 10" d="M725.5,2588.311s10.681-7.692,39.386,0,76.616,51,94.933,56.307,36.865,5.943,61.158,5.267,42.082,3.2,53.271,8.274a160.021,160.021,0,0,1,20.262,11.863c12.534,8.368,23.128,21.575,23.128,21.575" transform="translate(-724.646 -2494.008)" fill="none" stroke="#c59bb3" stroke-width="1"/>
+        <path id="Path_11" data-name="Path 11" d="M1017.638,2588.311s-10.681-7.692-39.386,0-76.615,51-94.933,56.307-36.865,5.943-61.158,5.267-42.082,3.2-53.271,8.274a160.009,160.009,0,0,0-20.262,11.863C736.093,2678.39,725.5,2691.6,725.5,2691.6" transform="translate(-725.5 -2522.198)" fill="none" stroke="#7896b2" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="long-arrow-pointing-to-the-right" transform="translate(790.194 2659)">
+      <path id="Path_12" data-name="Path 12" d="M111.463,145.584l-24.913-8.341a5.127,5.127,0,0,0-2.271-.119c-.821.127-1.233.357-1.233.691v5.338H2.076a4.387,4.387,0,0,0-1.492.214q-.583.214-.584.548v4.575q0,.333.584.548a4.4,4.4,0,0,0,1.492.214h80.97v5.338c0,.318.413.548,1.233.691a4.9,4.9,0,0,0,2.272-.143l24.913-8.436q.649-.238.648-.572Q112.112,145.822,111.463,145.584Z" transform="translate(0 -137.052)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g id="long-arrow-pointing-to-the-right-2" data-name="long-arrow-pointing-to-the-right" transform="translate(609.213 2659)">
+      <path id="Path_12-2" data-name="Path 12" d="M.649,145.584l24.913-8.341a5.127,5.127,0,0,1,2.271-.119c.821.127,1.233.357,1.233.691v5.338h80.969a4.387,4.387,0,0,1,1.492.214q.583.214.584.548v4.575q0,.333-.584.548a4.4,4.4,0,0,1-1.492.214H29.066v5.338c0,.318-.413.548-1.233.691a4.9,4.9,0,0,1-2.272-.143L.648,146.7Q0,146.465,0,146.131,0,145.822.649,145.584Z" transform="translate(0 -137.052)" fill="rgba(134,135,180,0)" stroke="#fff" stroke-width="1"/>
+    </g>
+    <text id="_labore_et_dolore_" data-name=" labore et dolore " transform="translate(510 2813)" fill="#fff" font-size="10" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0" xml:space="preserve"> labore et dolore </tspan></text>
+    <text id="_labore_et_dolore_2" data-name=" labore et dolore " transform="translate(510 2897)" fill="#fff" font-size="10" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0" xml:space="preserve"> labore et dolore </tspan></text>
+  </g>
+</svg>
